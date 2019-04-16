@@ -23,7 +23,7 @@
   "devDependencies": {
     "ts-node": "^8.0.3"
   },
-  "files": ["./dist/index.js"],
+  "files": ["dist/index.js"],
   "repository": {
     "type": "git",
     "url": "https://github.com/skeate/git-stashman"
