@@ -30,6 +30,7 @@ async function go() {
   });
   if (stashes.length === 0) {
     console.log('No stashes in current git repo');
+    process.exit(0);
   } else {
     const stashlist = blessed.list({
       top: 0,
